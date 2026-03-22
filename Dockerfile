@@ -30,6 +30,7 @@ RUN dpkg --add-architecture i386 \
         libfontconfig1 \
         tzdata \
         procps \
+        libtier0-valve:i386 \
     && useradd -m -d /home/container container
 
 USER container
